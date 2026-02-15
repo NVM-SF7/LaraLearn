@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact</title>
-</head>
-<body>
-    <ul>
-        <li><a href="{{Route('home')}}">Home</a></li>
-        <li><a href="{{Route('about')}}">About</a></li>
-        <li><a href="{{Route('contact')}}">Contact</a></li>
-        <li><a href="{{Route('gallery')}}">Gallery</a></li>
-    </ul>
+<x-app-layout title="Contact">
+
     Contact
-</body>
-</html>
+
+</x-app-layout>
